@@ -1,0 +1,90 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 4px 4px 5px #b3b3ff;
+}
+
+#customers th {
+    border: 1px solid rgb(0, 0, 128, 0.1);
+    padding: 8px;
+    color: whitesmoke;
+}
+
+#customers tr {
+    color: black;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#customers tr:hover {
+    background-color: whitesmoke;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(0, 0, 128, 0.2);
+    text-align: center;
+    color: black;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #85adad;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 50px;
+}
+
+.navbar a:hover {
+    background-color: #006bb3;
+}
+
+.active1 {
+    background-color: #006bb3;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+#employee {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 4px 4px 5px #b3b3ff;
+}
+
+#employee th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#employee tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#employee tr:hover {
+    background-color: #e6f7ff;
+}
+
+#employee th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #f2f2f2;
+    text-align: left;
+    color: black;
+}
